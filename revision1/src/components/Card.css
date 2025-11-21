@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user {
+    background-color: rgba(255, 6, 6, 0.562);
+    color: whitesmoke;
+    margin: 40px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.header {
+    background-color: yellow;
+    text-align: center;
+    border-radius: 5px;
+    width: max-content;
+    margin-left: 40%;
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 5px;
+}
