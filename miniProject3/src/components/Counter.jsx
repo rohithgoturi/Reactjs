@@ -2,13 +2,14 @@ import React, {useState} from 'react'
 
 const Counter = () => {
     var [count, setCount] = useState(0);
-    function incBy1 (){
-      setCount(count+1);
-    }
 
-    function decBy1 () {
-      setCount(count-1);
+    function incBy1(){
+        setCount(count + 1);
     }
+    function decBy1(){
+        setCount(count - 1);
+    }
+    
   return (
     <div className=' m-10'>
         <h1 className=' font-bold text-xl text-center text-yellow-300 uppercase'>Mini Project3 : Counter</h1> 
